@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.mainDiv{
+    /* position: relative; */
+    display: flexbox;
+    
+}
+.header{
+    /* background: rgba(235, 213, 213, 0.9); Put here the color that you want*/
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+.nav-bar{
+    float: right;
+}
+nav ul{
+    list-style: none;
+    overflow: hidden;
+    justify-content: space-around;
+    flex-direction: row;
+}
+ul li{
+    float: left;
+    font-family: serif;
+    font-size: 16px;
+    
+}
+ul li a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.footer{
+    display: flex;
+}
+.models{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 20px;
+    border: 3px solid #000; /*Put here the color that you want*/
+    width: auto;
+    border-radius: 2px;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 150px;
+    padding-top: 50px;
+    margin-top: 20px;
+    justify-content: center;
+    flex-direction: column;
+}
+.login h1{
+    margin-bottom: 30px;
+    
+}
+
+
